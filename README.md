@@ -1,10 +1,11 @@
 # es-mime-types
 
-[![Twitter](https://img.shields.io/twitter/follow/v1rtl.svg?label=twitter&style=flat-square)](https://twitter.com/v1rtl)
-![Top lang](https://img.shields.io/github/languages/top/talentlessguy/es-mime-types.svg?style=flat-square)
-![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/es-mime-types.svg?style=flat-square)
-[![Version](https://img.shields.io/npm/v/es-mime-types.svg?style=flat-square)](https://www.npmjs.com/package/es-mime-types)
-![Last commit](https://img.shields.io/github/last-commit/talentlessguy/es-mime-types.svg?style=flat-square)
+[![Subscribe to twitter][twitter-image]][twitter-url]
+![Top language][top-lang-image]
+![Vulnerabilities][snyk-image]
+[![Version][npm-v-image]][npm-url]
+[![Node Version][node-version-image]][node-version-url]
+![Last commit][last-commit-image]
 
 > [`mime-types`](https://github.com/jshttp/mime-types) rewrite in TypeScript with ESM and CommonJS targets
 
@@ -94,3 +95,13 @@ A map of extensions by content-type.
 ## License
 
 MIT © [v1rtl](https://v1rtl.site)
+
+[twitter-image]: https://img.shields.io/twitter/follow/v1rtl.svg?label=follow%20on%20twitter&style=flat-square
+[twitter-url]: https://twitter.com/v1rtl
+[node-version-image]: https://img.shields.io/node/v/es-mime-types.svg?style=flat-square
+[node-version-url]: https://nodejs.org
+[top-lang-image]: https://img.shields.io/github/languages/top/talentlessguy/es-mime-types.svg?style=flat-square
+[snyk-image]: https://img.shields.io/snyk/vulnerabilities/npm/es-mime-types.svg?style=flat-square
+[npm-v-image]: https://img.shields.io/npm/v/es-mime-types.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/es-mime-types
+[last-commit-image]: https://img.shields.io/github/last-commit/talentlessguy/es-mime-types.svg?style=flat-square

@@ -1,8 +1,17 @@
 {
   "name": "es-mime-types",
   "description": "mime-types rewrite in TypeScript with ESM and CommonJS targets",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "repository": "https://github.com/talentlessguy/es-mime-types.git",
+  "keywords": [
+    "http",
+    "esm",
+    "es",
+    "vary",
+    "nodejs",
+    "mime",
+    "mime-types"
+  ],
   "engines": {
     "node": ">=13"
   },
