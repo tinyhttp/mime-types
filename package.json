@@ -35,10 +35,10 @@
   },
   "devDependencies": {
     "@types/mime-db": "^1.43.0",
-    "@types/node": "^14.0.22",
-    "rollup": "^2.21.0",
+    "@types/node": "^14.0.23",
+    "rollup": "^2.22.0",
     "rollup-plugin-typescript2": "^0.27.1",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.7"
   },
   "scripts": {
     "build": "rollup -c"
