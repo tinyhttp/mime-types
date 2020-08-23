@@ -5,6 +5,7 @@
     "allowSyntheticDefaultImports": true,
     "preserveSymlinks": true,
     "target": "ESNext",
-    "module": "ESNext"
+    "module": "ESNext",
+    "moduleResolution": "Node"
   }
 }
