@@ -27,8 +27,7 @@ function populateMaps(extensions: string[], types: string[]) {
 
         if (
           types[extension] !== 'application/octet-stream' &&
-          (from > to ||
-            (from === to && types[extension].substr(0, 12) === 'application/'))
+          (from > to || (from === to && types[extension].substr(0, 12) === 'application/'))
         ) {
           // skip the remapping
           continue
@@ -82,7 +81,7 @@ export function contentType(str: string) {
     return false
   }
 
-  let mime = str.indexOf('/') === -1 ? exports.lookup(str) : str
+  let mime = str.indexOf('/') === -1 ? lookup(str) : str
 
   if (!mime) {
     return false
@@ -90,8 +89,8 @@ export function contentType(str: string) {
 
   // TODO: use content-type or other module
   if (mime.indexOf('charset') === -1) {
-    const charset = exports.charset(mime)
-    if (charset) mime += '; charset=' + charset.toLowerCase()
+    const ch = charset(mime) as string
+    if (ch) mime += '; charset=' + ch.toLowerCase()
   }
 
   return mime
@@ -109,7 +108,7 @@ export function extension(type: string | unknown) {
   const match = EXTRACT_TYPE_REGEXP.exec(type)
 
   // get extensions
-  const exts = match && exports.extensions[match[1].toLowerCase()]
+  const exts = match && extensions[match[1].toLowerCase()]
 
   if (!exts || !exts.length) {
     return false
@@ -135,5 +134,5 @@ export function lookup(path: string | unknown) {
     return false
   }
 
-  return exports.types[extension] || false
+  return types[extension] || false
 }
