@@ -27,7 +27,7 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
+      "import": "./dist/index.js"
     },
     "./package.json": "./package.json",
     "./": "./"
