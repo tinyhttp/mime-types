@@ -1,6 +1,5 @@
 # es-mime-types
 
-[![Subscribe to twitter][twitter-image]][twitter-url]
 ![Top language][top-lang-image]
 ![Vulnerabilities][snyk-image]
 [![Version][npm-v-image]][npm-url]
@@ -96,8 +95,6 @@ A map of extensions by content-type.
 
 MIT © [v1rtl](https://v1rtl.site)
 
-[twitter-image]: https://img.shields.io/twitter/follow/v1rtl.svg?label=follow%20on%20twitter&style=flat-square
-[twitter-url]: https://twitter.com/v1rtl
 [node-version-image]: https://img.shields.io/node/v/es-mime-types.svg?style=flat-square
 [node-version-url]: https://nodejs.org
 [top-lang-image]: https://img.shields.io/github/languages/top/talentlessguy/es-mime-types.svg?style=flat-square
