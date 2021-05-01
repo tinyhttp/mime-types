@@ -6,7 +6,7 @@
 [![Node Version][node-version-image]][node-version-url]
 ![Last commit][last-commit-image]
 
-> [`mime-types`](https://github.com/jshttp/mime-types) rewrite in TypeScript with ESM and CommonJS targets
+> [`mime-types`](https://github.com/jshttp/mime-types) rewrite in TypeScript compiled to ESM
 
 The ultimate javascript content-type utility.
 
