@@ -1,13 +1,13 @@
-import ts from 'rollup-plugin-typescript2'
+import ts from '@rollup/plugin-typescript'
 
 export default {
   input: 'src/index.ts',
   output: [
     {
-      file: 'dist/index.js',
+      dir: 'dist',
       format: 'esm',
     },
   ],
-  plugins: [ts()],
+  plugins: [ts({ include: ['./src/**/*.ts'] })],
   external: ['path', 'mime-db'],
 }

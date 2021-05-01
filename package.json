@@ -1,7 +1,7 @@
 {
   "name": "es-mime-types",
   "description": "mime-types rewrite in TypeScript with ESM and CommonJS targets",
-  "version": "0.0.16",
+  "version": "0.1.2",
   "repository": "https://github.com/talentlessguy/es-mime-types.git",
   "keywords": [
     "http",
@@ -16,8 +16,7 @@
     "node": ">=12.x"
   },
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "author": "talentlessguy <pilll.PL22@gmail.com>",
   "license": "MIT",
@@ -33,14 +32,15 @@
     "./": "./"
   },
   "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.1",
     "@types/mime-db": "^1.43.0",
-    "@types/node": "^14.14.11",
-    "rollup": "^2.34.2",
-    "rollup-plugin-typescript2": "^0.29.0",
-    "typescript": "^4.1.2"
+    "@types/node": "^15.0.1",
+    "rollup": "^2.46.0",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
   },
   "dependencies": {
-    "mime-db": "^1.45.0"
+    "mime-db": "^1.47.0"
   },
   "scripts": {
     "prepare": "pnpm build",

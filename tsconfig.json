@@ -1,24 +1,12 @@
 {
   "include": ["src"],
   "compilerOptions": {
-    "target": "ES2019",
+  	"esModuleInterop": true,
     "module": "ESNext",
-    "declaration": true,
-    "preserveSymlinks": true,
-    "outDir": "dist",
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "downlevelIteration": true,
-    "noUnusedLocals": false,
-    "noImplicitAny": false,
-    "noUnusedParameters": true,
-    "preserveConstEnums": true,
-    "skipLibCheck": true,
+    "target": "ES2019",
     "moduleResolution": "Node",
-    "sourceMap": false,
-    "allowUnusedLabels": true,
-    "allowUmdGlobalAccess": false,
-    "forceConsistentCasingInFileNames": true,
-    "allowSyntheticDefaultImports": true
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src"
   }
 }
