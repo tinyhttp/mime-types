@@ -1,12 +1,13 @@
 {
   "include": ["src"],
   "compilerOptions": {
-  	"esModuleInterop": true,
+    "esModuleInterop": true,
     "module": "ESNext",
     "target": "ES2019",
     "moduleResolution": "Node",
     "declaration": true,
     "outDir": "dist",
-    "rootDir": "src"
+    "rootDir": "src",
+    "declarationDir": "dist"
   }
 }

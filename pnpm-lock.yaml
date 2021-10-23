@@ -1,19 +1,19 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@rollup/plugin-typescript': ^8.3.0
+  '@rollup/plugin-typescript': '8.2'
   '@types/mime-db': ^1.43.1
   '@types/node': ^16.11.4
   mime-db: ^1.50.0
   rollup: ^2.58.0
   tslib: ^2.3.1
-  typescript: ^4.4.4
+  typescript: '4.4'
 
 dependencies:
   mime-db: 1.50.0
 
 devDependencies:
-  '@rollup/plugin-typescript': 8.3.0_11969cb7979bf76fd37eb17f863ea3c2
+  '@rollup/plugin-typescript': 8.2.5_11969cb7979bf76fd37eb17f863ea3c2
   '@types/mime-db': 1.43.1
   '@types/node': 16.11.4
   rollup: 2.58.0
@@ -22,8 +22,8 @@ devDependencies:
 
 packages:
 
-  /@rollup/plugin-typescript/8.3.0_11969cb7979bf76fd37eb17f863ea3c2:
-    resolution: {integrity: sha512-I5FpSvLbtAdwJ+naznv+B4sjXZUcIvLLceYpITAn7wAP8W0wqc5noLdGIp9HGVntNhRWXctwPYrSSFQxtl0FPA==}
+  /@rollup/plugin-typescript/8.2.5_11969cb7979bf76fd37eb17f863ea3c2:
+    resolution: {integrity: sha512-QL/LvDol/PAGB2O0S7/+q2HpSUNodpw7z6nGn9BfoVCPOZ0r4EALrojFU29Bkoi2Hr2jgTocTejJ5GGWZfOxbQ==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
       rollup: ^2.14.0
